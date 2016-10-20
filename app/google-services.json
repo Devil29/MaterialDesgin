@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "35425464977",
+    "project_id": "dazzling-bird-137211"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35425464977:android:9de82d95975af4d2",
+        "android_client_info": {
+          "package_name": "com.android.materialdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35425464977-3knoqjh593b9k2h3eioajrmtnl96fgji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.materialdesign",
+            "certificate_hash": "B9955B681EF6A6C136B23A5539917EB2F7E9F325"
+          }
+        },
+        {
+          "client_id": "35425464977-6cv5o40tkgp029ur2g7ghh4j2soiu397.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7HUpgprM5ffEqpHuFcdIzd_UdUJzQlA8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
