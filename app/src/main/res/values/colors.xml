@@ -5,6 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#000000</color>
+    <color name="colorbg">#cde4cb</color>
+    <color name="color_white">#ffffff</color>
 
     <!-- Screens background color-->
     <color name="bg_screen1">#f64c73</color>

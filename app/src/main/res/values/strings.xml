@@ -3,6 +3,7 @@
     <string name="action_settings">Settings</string>
 
     <!-- Button text -->
+    <string name="login_with_email">Login with Email</string>
     <string name="btn_logout_from_google">Logout from Google</string>
     <string name="btn_revoke_access">Revoke Access</string>
 
@@ -31,5 +32,11 @@
     <string name="one">ONE</string>
     <string name="two">TWO</string>
     <string name="three">THREE</string>
+    <string name="title_activity_main">Material Design</string>
+    <string name="or">OR</string>
+
+    <!-- onCreateOptionsMenu -->
+    <string name="show_profile">Profile</string>
+    <string name="show_settings">Settings</string>
 
 </resources>
