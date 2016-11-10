@@ -18,6 +18,7 @@ import com.android.materialdesign.fragment.LoginFragment;
 import com.android.materialdesign.fragment.OneFragment;
 import com.android.materialdesign.fragment.ProfileFragment;
 import com.android.materialdesign.fragment.SettingsFragment;
+import com.android.materialdesign.fragment.TabPageFragment;
 import com.android.materialdesign.fragment.ThreeFragment;
 import com.android.materialdesign.fragment.TwoFragment;
 
@@ -98,6 +99,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void threeFrag(){
         Fragment fragment = new ThreeFragment();
+        fragmentManager.beginTransaction().replace(R.id.container_main,fragment).commitAllowingStateLoss();
+    }
+
+    public void tabPage(){
+        Fragment fragment = new TabPageFragment();
         fragmentManager.beginTransaction().replace(R.id.container_main,fragment).commitAllowingStateLoss();
     }
 
