@@ -26,6 +26,7 @@
 
         <Button
             android:layout_width="fill_parent"
+            android:id="@+id/login_with_Email"
             android:layout_height="50dp"
             android:text="@string/login_with_email"
             android:background="@color/color_white"

@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         setFabButton();
         fragmentManager=getSupportFragmentManager();
         loginFrag();
-
     }
 
     public void setFabButton(){
@@ -52,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
@@ -69,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+
+
 
     /* All Function to load any Fragment */
 
